@@ -1,0 +1,659 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.header_home{
+    background-color: #F8EDF0;
+}
+.container{
+    max-width: 1125px;
+    margin: auto;
+}
+
+.header_container{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.logo{
+    margin-top: 10px;
+}
+
+.ul_lists{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    margin-top: 41px;
+    gap: 40px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.ul_lists li :nth-child(1){
+    color: #D23166;
+    font-size: 15px;
+}
+
+.buton_home{
+    border: none;
+    color: #fff;
+    background-color: #D23166;
+    border-radius: 5px;
+    width: 165px;
+    height: 49px;
+    margin-top: 25px;
+    border-radius: none;
+}
+
+
+
+
+.section_home{
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+
+.section_list{
+    margin-top: 200px;
+}
+
+.lists_p_home{
+    font-size: 14px;
+}
+
+.lists_h1_home{
+    font-size: 57px;
+    width: 665px;
+    margin-top: 10px;
+}
+
+.p_hpme_text{
+    font-size: 18px;
+    margin-top: 35px;
+    height: 78px;
+    width: 523px;
+}
+
+.button_home_two{
+    background-color: #D23166;
+    border-radius: 5px;
+    width: 165px;
+    height: 49px;
+    margin-top: 50px;
+    margin-bottom: 232px;
+    border-radius: none;
+    border: none;
+
+}
+
+.button_two_a{
+    color: #fff;
+    font-size: 16px;
+}
+
+/* .foto_home{
+    background-image:url(../image/bg-image.png);
+
+} */
+
+ 
+.img_home {
+    margin-top: 52px;
+    margin-left: -25px;
+} 
+
+
+
+
+
+/* main________ */
+
+
+
+
+.main_container{
+    display: flex;
+    max-width: 1100px;
+    margin-top: 100px;
+    height: 200px;
+    gap: 39px;
+}
+
+
+.images_main{
+    margin-top: 50px;
+    margin-left: 110px;
+}
+
+.page_main{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.main_text{
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+
+
+
+/* section________ */
+
+
+
+
+
+.begraund_section{
+    background-color: #F8EDF0;
+    margin-top: 100px;
+}
+
+
+.section_container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.setion_list{
+    margin-top: 142px;
+
+}
+
+.brown_h2{
+    font-size: 44px;
+    width: 349px;
+    height: 98px;
+}
+
+.p_mcdonalds{
+    font-size: 16px;
+    margin-top: 16px;
+    width: 442px;
+    height: 58px;
+}
+
+.see_button{
+    background-color: #D23166;
+    border-radius: 5px;
+    width: 165px;
+    height: 49px;
+    margin-top: 50px;
+    margin-bottom: 232px;
+    border-radius: none;
+    border: none;
+}
+
+.a_detals{
+    color: #fff;
+    font-size: 16px;
+}
+
+
+
+
+
+.section_2_img{
+    margin-left: 74px;
+}
+
+
+
+
+
+
+/* Our_Product_section */
+
+
+
+
+.section_3_container{
+    width: 1160px;
+    margin-top: 140px;
+}
+
+.product{
+    text-align: center;
+}
+
+.section_our{
+    font-size: 44px;
+}
+
+.ul_product{
+    gap: 40px;
+    margin-top: 64px;
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+
+.our_li_a{
+    color: #000000;
+    font-size: 18px;
+}
+
+.brown_bred{
+    display: flex;
+}
+
+.foto_brown{
+    margin-top: 50px;
+    margin-right: 85px;
+}
+
+
+.brown_list{
+    margin-top: 110px;
+}
+
+.p_bon_text{
+    margin-top: 26px;
+    width: 454px;
+    height: 67px;
+    font-size: 16px;
+    margin-bottom: 28px;
+}
+
+.price{
+    display: flex;
+    gap: 5px;
+}
+
+.price h2{
+    font-size: 26px;
+}
+.price del{
+    margin-left: 5px;
+    margin-top: 7px;
+    font-size: 20px;
+}
+
+
+.buton_bro{
+    background-color: #D23166;
+    border-radius: 5px;
+    width: 165px;
+    height: 49px;
+    margin-top: 16px;
+    margin-bottom: 232px;
+    border-radius: none;
+    border: none;
+}
+
+.brown_a{
+    color: #fff;
+    font-size: 16px;
+}
+
+
+
+
+.cayenne_chocolate{
+    margin-top: 30px;
+    display: flex;
+}
+
+
+.h2_cany_text{
+    margin-top: 110px;
+    text-align:end;
+    font-size: 26px;
+}
+
+.p_cany_text{
+    margin-top: 12px;
+    text-align:end;
+    font-size: 16px;
+}
+
+.price_2{
+    display: flex;
+    gap: 5px;
+    margin-top: 28px;
+    margin-left: 330px;
+}
+
+.price_2 h2{
+    font-size: 26px;
+}
+.price_2 del{
+    margin-left: 5px;
+    margin-top: 7px;
+    font-size: 20px;
+}
+
+.buton_cany{
+    background-color: #D23166;
+    border-radius: 5px;
+    width: 165px;
+    height: 49px;
+    margin-top: 16px;
+    margin-bottom: 232px;
+    border-radius: none;
+    border: none;
+    margin-left: 300px;
+}
+
+.cany_a{
+    color: #fff;
+    font-size: 16px;
+}
+
+.canny_img{
+    margin-left: 84px;
+}
+
+
+
+/* sweetcorn________ */
+
+
+.sweetcorn_produkt{
+    display: flex;
+    margin-top: 35px;
+
+}
+
+.foto_sweet{
+    margin-right: 87px;
+}
+
+.h2_sweet_text{
+    margin-top: 100px;
+    font-size: 26px;
+}
+
+.p_cany_text{
+    font-size: 16px;
+    margin-top: 12px;
+}
+
+.price_3{
+    display: flex;
+    margin-top: 28px;
+}
+
+.price_3 h2{
+    font-size: 26px;
+}
+
+.price_3 del{
+    margin-top: 7px;
+    margin-left: 5px;
+    font-size: 20px;
+}
+
+.buton_sweet{
+    background-color: #D23166;
+    border-radius: 5px;
+    width: 165px;
+    height: 49px;
+    margin-top: 16px;
+    margin-bottom: 232px;
+    border-radius: none;
+    border: none;
+}
+
+.sweet_a{
+    color: #fff;
+    font-size: 16px;
+}
+
+
+
+/* threecream_product__________ */
+
+
+
+
+.cream_pro{
+    display: flex;
+    margin-top: 112px;
+    margin-bottom: 150px;
+}
+
+.adele_img{
+    display: flex;
+    margin-top: 100px;
+}
+
+.adeli_h2{
+    margin-top: 5px;
+    margin-left: 21px;
+    font-size: 24px;
+}
+
+.american_h4{
+    margin-top: 5px;
+    margin-left: 11px;
+}
+
+.quashn_img{
+    font-size: 16px;
+    margin-top: 46px;
+    width: 350px;
+    height: 60px;
+}
+
+.images_man{
+    margin-top: 60px;
+}
+
+.img_1{
+    margin-bottom: 25px;
+    margin-right: 40px;
+}
+
+.img_2{
+    margin-bottom: 15px;
+    margin-right: 35px;
+}
+
+.img_3{
+    margin-bottom: 5px;
+}
+
+.img_4{
+    margin-bottom: 15px;
+    margin-left: 35px;
+}
+
+.img_5{
+    margin-left: 40px;
+    margin-bottom: 25px;
+}
+
+.craam_img{
+    margin-left: 224px;
+}
+
+
+
+/* MaskGroup__________ */
+
+
+.main_cantainer{
+    background-color: #F8EDF0;
+}
+
+
+.imges_masck{
+    display: flex;
+}
+
+
+.simple_h1{
+    margin-top: 100px;
+    margin-left: 100px;
+    font-size: 45px;
+}
+
+.p_some_text{
+    width: 600px;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+.img_li_text{
+    margin-top: 20px;
+    margin-left: 100px;
+    list-style-type: none;
+    font-size: 22px;
+}
+
+.store_img{
+    margin-left: 100px;
+}
+
+
+
+
+/* hawe_question__________ */
+
+
+.h1_have{
+    text-align: center;
+    font-size: 44px;
+    width: 522px;
+    margin-left: 340px;
+    margin-top: 190px;
+}
+
+.inp_but{
+    margin-top: 30px;
+    margin-bottom: 130px;
+}
+
+.input_text{
+    font-size: 22px;
+    color: #000000;
+    border-radius: 5px;
+    border: none;
+    background-color: #FAFAFA;
+    margin-left: 230px;
+    width: 580px;
+    height: 75px;
+}
+
+.buton__send{
+    border: none;
+    border-radius: 5px;
+    background-color: #D64374;
+    width: 135px;
+    height: 75px;
+}
+
+
+
+
+/* futer_______________ */
+
+
+
+footer{
+    background-color: #0A0808;
+}
+
+.futr_cantenr{
+    display: flex;
+}
+
+.futr_logo{
+    margin-top: 70px;
+}
+
+.p_futr{
+    color: #fff;
+    margin-top: 10px;
+    width: 207px;
+}
+
+.span_flow{
+    color: #fff;
+    margin-top: 25px;
+}
+
+
+
+.ul_a_futr{
+    list-style-type: none;
+    margin-top: 145px;
+    margin-left: 40px;
+    margin-bottom: 100px;
+}
+
+.ul_a_futr li a{
+    color: #fff;
+}
+
+
+.footr_li_a{
+    list-style-type: none;
+    margin-top: 145px;
+    margin-left: 132px;
+}
+
+.footr_li_a a{
+    color: #fff;
+}
+
+
+.h3_news{
+    color: #fff;
+    margin-top: 136px;
+    margin-left: 150px;
+}
+
+.futer_inp_but{
+    margin-top: 15px;
+}
+
+.input_text_futr{
+    font-size: 22px;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    background-color: #0A0808 ;
+    margin-left: 75px;
+    width: 300px;
+    height: 55px;
+}
+
+
+.buton_subscribe{
+    border: none;
+    border-radius: 5px;
+    background-color: #D64374;
+    width: 125px;
+    height: 55px;
+}
+
+.futr_lists{
+    margin-top: 15px;
+}
+
+
+.futr_lists ul{
+    display: flex;
+    gap: 10px;
+    list-style-type: none;
+}
+
+.futr_links{
+    list-style-type: none;
+}
+
+.futr__links{
+    list-style-type: none;
+}
